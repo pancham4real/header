@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+     margin-left: 10px; 
+    background-color: rgb(232, 227, 227);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.search{
+    flex: 0.4;
+    color: rgb(122,128,141);
+    background-color: rgb(243,244,246);
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 25px;   
+}
+.date{
+    flex: 0.3;
+    margin-left: 40px;
+    color: rgb(122,128,141);
+}
+.views{
+    
+    flex: 0.3;
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    
+}
+.list-view{
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 15px;
+}
+.list-text{
+    margin: 10px;
+}
+.grid-view{
+    background-color: rgb(243,244,246);
+    padding: 6px;
+    border-radius: 15px;
+}
+.grid-text{
+    margin: 10px;
+}

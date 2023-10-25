@@ -1,0 +1,113 @@
+.main{
+    background-color: white;
+}
+.maintasks{
+    display: flex;
+ 
+    flex-direction: column;
+    color: white;
+    
+    margin-left: 10px;
+    border-radius: 10px;
+}   
+
+
+.upper{
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: top; */
+    /* flex: 1; */
+    flex-direction: column ;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    margin-right: 20px;
+    /* height: 80vh  */
+
+}
+.upper-left{
+    display: flex;
+    flex-direction: column;
+    width: 62.5%;
+    /* background-color:red;   */
+}
+.heading{
+    display: flex;
+    font-size: xx-large;
+    padding: 10px;
+    flex-direction: row;
+    
+    
+    /* font-weight: bold; */
+}
+.text{
+    display: flex;
+   justify-content: space-between;
+}
+.upper-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+    margin-top: -320px;
+    /* background-color: blue; */
+}
+.right-text{
+    padding: 10px;
+    background-color: rgb(5,150,105);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.adMoreContainer{
+    margin-left: 10px; 
+}
+.main-table{
+    flex: 1;
+    display: flex;
+}
+
+.header{
+    display: flex;
+    flex: 1;
+    background-color: rgb(51,65,85);
+
+}
+.row{
+    display: flex;
+    color: black;
+    
+}
+.header-row{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+   color: white;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(51,65,85);
+   border-radius: 10px;
+   margin-right: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.row-data{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+   color: black;
+   justify-content: space-between;
+   align-items: start;
+   background-color: white;
+   margin-right: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    
+}

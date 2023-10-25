@@ -1,0 +1,159 @@
+.projectss{
+    display: flex;
+    flex-direction:row;
+    /* flex:1; */
+    justify-content: top;
+    align-items: top;
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50vh;
+}
+.projectss-left{
+    display: flex;
+    flex:0.5;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.projectss-right{
+    display: flex;
+    flex:0.5;
+    color:white;
+    flex-direction: column;
+    background-color: rgb(22,140,66);
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+.buttons{
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+}
+
+.deployement{
+
+    display: flex;
+    background-color: rgb(254,202,202);
+    margin-right: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.build{
+    background-color:rgb(254,215,170) ;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.improve{
+    color: rgb(104,112,124);
+    
+}
+.raised{
+    margin-top: -20px;
+    color: rgb(104,112,124);
+}
+.comments{
+    display: flex;
+    flex-direction: row;
+    margin-top: -35px;
+    color: rgb(104,112,124);
+}
+.h{
+    display: flex;
+    flex-direction: row;
+
+}
+.com{
+
+    display: flex;
+    flex-direction: row;
+}
+.svg{
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
+}
+.hors{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons-right{
+
+    display: flex;
+    justify-content: start;
+    align-items: start;  
+}
+
+.deployement-right{
+
+    display: flex;
+    background-color: rgb(187,247,208);
+    margin-right: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+}
+.build-right{
+    background-color:rgb(187,247,208);
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color: black;
+}
+.deploy{
+   color: white; 
+}
+.raised-right{
+    margin-top: -20px;
+    color: white;
+}
+.h-right{
+    display: flex;
+    flex-direction: row;
+}
+.com-right{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.hors-right{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.svg-right{
+
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
+}

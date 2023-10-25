@@ -1,0 +1,103 @@
+.main{
+    display: flex;
+    flex:1;
+    /* justify-content: space-between; */
+}
+.sidebar{
+    display: flex;
+    flex:0.3;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+
+
+    /* justify-content: space-evenly; */
+
+    color: white;
+
+    background-color: rgb(30,41,59);
+    height: 150vh;
+    /* width: 400px; */
+    padding: 10px;
+    border-radius: 10px;  
+}
+.right{
+    display: flex;
+    flex:0.7;
+    margin: 5px;
+    flex-direction: column;
+ 
+}
+.bell{
+display: flex;
+flex-direction: row;
+justify-content: center;
+border-bottom:  solid 2px gray;
+height: 80px;
+width: 400px;
+
+
+}
+.bell-text{
+    margin-top: 20px;
+    color: rgb(20,184,166);
+    font-weight: bold;
+    font-size: x-large;
+}
+.bell-icon{
+    margin-top: 25px;
+    margin-right: 10px;
+    color: rgb(20,184,166);
+    height: 250px;
+    width: 25px;
+}
+.dashboard{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 135px;
+}
+.dashboard-icon{
+    width: 20px;
+    /* margin-right: 25px; */
+    margin-right: 10px;
+}
+.projects{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 135px;
+}
+.projects-icon{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.tasks{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 135px;
+}
+.tasks-icon{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.services{
+    display: flex;
+    margin-top: 50px; 
+    margin-left: 135px;  
+}
+.services-icon{
+    width: 20px;
+    margin-right: 10px; 
+}
+
+
+.chat{
+    display: flex;
+    margin-top: 50px; 
+    margin-left: 135px;  
+}
+.chat-icon{
+    width: 20px;
+    margin-right: 10px; 
+}
